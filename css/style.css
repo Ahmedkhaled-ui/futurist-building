@@ -32,9 +32,13 @@
   height: 750px;
   object-fit: contain;
 }
+.navbar {
+  transition: background-color 0.3s ease;
+  background-color: transparent;
+}
+
 .nav-scrolled {
   background-color: rgba(13, 109, 253, 1);
-  transition: background-color 0.3s ease;
 }
 .scroll-offset {
   scroll-margin-top: 100px;
