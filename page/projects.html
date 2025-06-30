@@ -1,0 +1,72 @@
+<!-- project-details.html -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project Details</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
+      crossorigin="anonymous" />
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body>
+    <div id="carouselExample" class="carousel slide pt-5 container rounded-5">
+      <div class="carousel-inner h-75">
+        <div class="carousel-item active">
+          <img
+            id="projectImage"
+            style="height: 300px"
+            class="d-block w-100 rounded"
+            alt="..."
+            alt="Project Image" />
+        </div>
+        <div class="carousel-item active">
+          <img
+            style="height: 300px"
+            id="projectImage1"
+            class="d-block w-100 rounded"
+            alt="..."
+            alt="Project Image" />
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExample"
+        data-bs-slide="prev">
+        <span
+          class="carousel-control-prev-icon custom-blue"
+          aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExample"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <div class="container py-5">
+      <div class="row align-items-center g-4">
+        <div class="col-12 text-center text-lg-start">
+          <h1 id="projectTitle" class="mb-3 text-primary fs-2 fw-bold"></h1>
+          <p id="projectLocation" class="mb-2 text-warning-emphasis fs-4"></p>
+          <p id="projectLabel" class="mb-2 text-secondary fs-5"></p>
+          <p id="projectDescription" class="text-dark fs-5 lh-lg"></p>
+        </div>
+      </div>
+    </div>
+
+    <script src="../js/prodects.js"></script>
+    <script src="../js/index.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+      crossorigin="anonymous"></script>
+  </body>
+</html>
