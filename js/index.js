@@ -35,3 +35,15 @@ function handleScroll() {
     }
   });
 }
+
+document.addEventListener("DOMContentLoaded", function () {
+  document.querySelectorAll(".offcanvas a.nav-link").forEach((link) => {
+    link.addEventListener("click", () => {
+      const offcanvasEl = document.querySelector("#navbarSupportedContent");
+      const offcanvas = bootstrap.Offcanvas.getInstance(offcanvasEl);
+      if (offcanvas) {
+        offcanvas.hide();
+      }
+    });
+  });
+});

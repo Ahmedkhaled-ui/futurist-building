@@ -20,54 +20,60 @@
         <a class="navbar-brand text-light" href="#">
           <img class="logoSize" src="./image/logo1.png" alt="logo" />
         </a>
+
         <button
           class="navbar-toggler bg-light"
           type="button"
-          data-bs-toggle="collapse"
+          data-bs-toggle="offcanvas"
           data-bs-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent"
-          aria-expanded="false"
           aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a
-                class="nav-link text-body-secondary fw-bold"
-                aria-current="page"
-                href="#home"
-                >Home</a
-              >
-            </li>
-            <li class="nav-item">
-              <a
-                class="nav-link text-body-secondary fw-bold"
-                aria-current="page"
-                href="#about"
-                >About us</a
-              >
-            </li>
-            <li class="nav-item">
-              <a
-                class="nav-link text-body-secondary fw-bold"
-                aria-current="page"
-                href="#Services"
-                >Services</a
-              >
-            </li>
-            <li class="nav-item">
-              <a
-                class="nav-link text-body-secondary fw-bold"
-                aria-current="page"
-                href="#Projects"
-                >Projects</a
-              >
-            </li>
-          </ul>
+
+        <div
+          class="offcanvas offcanvas-start"
+          tabindex="-1"
+          id="navbarSupportedContent"
+          aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title text-dark" id="offcanvasNavbarLabel">
+              Menu
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link text-body-secondary fw-bold" href="#home"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-body-secondary fw-bold" href="#about"
+                  >About us</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-body-secondary fw-bold" href="#Services"
+                  >Services</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-body-secondary fw-bold" href="#Projects"
+                  >Projects</a
+                >
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </nav>
+
     <!-- CENTERED CONTENT -->
 
     <div class="bgHome rounded-1 pe-lg-5 px-lg-0 px-3 pt-5">
