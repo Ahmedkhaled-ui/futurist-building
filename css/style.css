@@ -73,16 +73,17 @@
 
 .hover:hover {
   transform: scale(1.2);
+  transition: all 1s;
 }
 .hover:hover svg {
-  fill: #000000;
+  fill: #ffffff;
 }
-.hover:hover .bg-light {
-  background-color: #ffffff !important;
+.hover:hover .bg-Survice {
+  background-color: #0d6efd !important;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
 }
 .hover:hover p {
-  color: #0d6efd !important;
+  color: #ffffff !important;
 }
 
 @media (max-width: 992px) {
