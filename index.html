@@ -13,236 +13,340 @@
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <div class="bgCover">
-      <!-- NAV -->
-      <nav class="navbar navbar-expand-lg fixed-top">
-        <div class="container">
-          <a class="navbar-brand text-light" href="#">
-            <img class="logoSize" src="./image/logo1.png" alt="logo" />
-          </a>
-          <button
-            class="navbar-toggler bg-light"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a
-                  class="nav-link text-light fw-bold"
-                  aria-current="page"
-                  href="#home"
-                  >Home</a
-                >
-              </li>
-              <li class="nav-item">
-                <a
-                  class="nav-link text-light fw-bold"
-                  aria-current="page"
-                  href="#about"
-                  >About us</a
-                >
-              </li>
-              <li class="nav-item">
-                <a
-                  class="nav-link text-light fw-bold"
-                  aria-current="page"
-                  href="#Services"
-                  >Services</a
-                >
-              </li>
-              <li class="nav-item">
-                <a
-                  class="nav-link text-light fw-bold"
-                  aria-current="page"
-                  href="#Projects"
-                  >Projects</a
-                >
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
+    <!-- NAV -->
 
-      <!-- CENTERED CONTENT -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+      <div class="container">
+        <a class="navbar-brand text-light" href="#">
+          <img class="logoSize" src="./image/logo1.png" alt="logo" />
+        </a>
+        <button
+          class="navbar-toggler bg-light"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a
+                class="nav-link text-body-secondary fw-bold"
+                aria-current="page"
+                href="#home"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link text-body-secondary fw-bold"
+                aria-current="page"
+                href="#about"
+                >About us</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link text-body-secondary fw-bold"
+                aria-current="page"
+                href="#Services"
+                >Services</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link text-body-secondary fw-bold"
+                aria-current="page"
+                href="#Projects"
+                >Projects</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- CENTERED CONTENT -->
+
+    <div class="bgHome rounded-1 pe-lg-5 px-lg-0 px-3 pt-5">
       <div
         id="home"
-        class="d-flex align-items-center justify-content-center min-vh-100">
-        <h1 class="text-light text-center">
-          We build quality by the <br />
-          standards of the future
-        </h1>
+        class="row d-flex align-items-center justify-content-center pt-5 min-vh-100">
+        <div class="col-md-5 col">
+          <p class="fs-5 text-dark fw-bold text-md-start text-center">
+            Welcome to
+          </p>
+          <h1
+            class="text-primary fw-bold text-uppercase text-md-start text-center">
+            futurist buildung
+          </h1>
+          <p class="text-dark-emphasis text-md-start text-center fs-3">
+            Transforming Visionary Designs into High Performance Buildings
+          </p>
+        </div>
+
+        <div class="col-md-6 col-10">
+          <img class="w-100" src="./image/home.png" alt="" />
+        </div>
       </div>
     </div>
 
     <!-- about  -->
-    <div id="about" class="container py-5 scroll-offset mb-5">
-      <div
-        class="row d-flex flex-column flex-lg-row align-items-center justify-content-between">
-        <div class="col-lg-5 text-center text-lg-start mb-4 mb-lg-0">
-          <img class="img-fluid w-100" src="./image/bg.JPG" alt="About Image" />
-        </div>
+    <div id="about" class="scroll-offset mb-5 pt-5">
+      <h2
+        class="text-uppercase text-dark fw-bolder fs-1 text-center mb-5 line line1 position-relative">
+        about us
+      </h2>
+      <div id="about" class="container py-5 scroll-offset">
+        <div class="row g-4 mx-auto">
+          <div class="col-12 col-md-6">
+            <div class="card h-100 p-3 border-0 shadow">
+              <!-- <h5 class="card-title text-primary fs-1 text-center">VISION</h5> -->
+              <img
+                src="./image/vision.webp"
+                class="card-img-top w-100 h-50 object-fit-cover"
+                alt="VISION" />
+              <div class="card-body">
+                <p class="card-text fs-5 text-body-secondary">
+                  Futurist Buildings aims to lead the construction industry in
+                  Saudi Arabia and the Middle East by delivering innovative,
+                  sustainable, and high-quality projects. We strive to shape
+                  iconic urban developments using advanced technologies and
+                  smart design, while fostering community growth and leaving a
+                  lasting impact for future generations.
+                </p>
+              </div>
+            </div>
+          </div>
 
-        <div class="col-lg-6">
-          <h1 class="mb-3 fs-2 text-primary text-start text-lg-start">
-            COMPANY INTRODUCTION
-          </h1>
-          <p class="fs-5 text-start text-lg-start lh-base fs-4">
-            Operating at the intersection of innovation, precision, and design
-            integrity, Futurist Building Engineering Contracting brings to life
-            a wide spectrum of projects across the commercial, mixed-use, and
-            residential sectors. From large-scale commercial towers and
-            integrated urban districts to refined, high-performance living
-            spaces, our portfolio reflects a consistent commitment to excellence
-            and detail at every stage of development.
-          </p>
+          <div class="col-12 col-md-6">
+            <div class="card h-100 p-3 border-0 shadow">
+              <!-- <h5 class="card-title text-primary fs-1 text-center">MISSION</h5> -->
+              <img
+                src="./image/MISSION.webp"
+                class="card-img-top w-100 h-50 object-fit-cover"
+                alt="MISSION" />
+              <div class="card-body">
+                <p class="card-text text-body-secondary fs-5 lh-lg">
+                  To deliver superior construction solutions that turn visionary
+                  architectural designs into lasting, high-performance buildings
+                  through technical expertise, collaborative partnerships, and a
+                  steadfast commitment to quality, innovation, and
+                  sustainability.
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
-    <div id="about" class="container py-5 scroll-offset">
-      <div
-        class="row d-flex flex-column flex-lg-row align-items-center justify-content-between">
-        <div
-          class="col-lg-5 text-center text-lg-start mb-4 mb-lg-0 order-1 order-lg-2">
-          <img class="w-100" src="./image/logo.jpeg" alt="About Image" />
-        </div>
 
-        <div class="col-lg-6 order-2 order-lg-1">
-          <h1 class="fs-1 text-primary text-start text-lg-start">VISION</h1>
-          <p class="fs-5 text-lg-start text-start mt-5 fs-4 lh-base">
-            Futurist Buildings aims to become a leading force in the
-            construction industry in Saudi Arabia and the broader Middle East by
-            setting new standards in quality, innovation, and project delivery.
-            The company aspires to contribute to iconic urban developments,
-            using sustainable materials, advanced technologies, and intelligent
-            design. With a focus on creating future-ready, environmentally
-            responsible spaces, Futurist Buildings envisions itself as a trusted
-            partner in building world-class infrastructure. Its commitment to
-            innovation and excellence reflects the ambitious growth of the
-            Kingdom, aiming to inspire progress and leave a lasting impact for
-            future generations.
-          </p>
-        </div>
+    <div class="row container mx-auto pt-5 shadow">
+      <div class="col-md-4 col-12 position-relative mb-5 order-1 order-lg-2">
+        <img class="w-100" src="./image/about1.png" alt="About Image" />
+        <img
+          class="w-100 position-absolute start-0 end-0 bottom-0 top-0"
+          src="./image/about1(1).png"
+          alt="About Image" />
+      </div>
+
+      <div class="col-lg-8 my-auto order-2 order-lg-1">
+        <h1 class="mb-3 fs-1 text-primary text-start text-lg-start flag">
+          COMPANY INTRODUCTION
+        </h1>
+        <p
+          class="fs-5 text-start text-dark-emphasis text-lg-start lh-base fs-4">
+          Operating at the intersection of innovation, precision, and design
+          integrity, Futurist Building Engineering Contracting brings to life a
+          wide spectrum of projects across the commercial, mixed-use, and
+          residential sectors. From large-scale commercial towers and integrated
+          urban districts to refined, high-performance living spaces, our
+          portfolio reflects a consistent commitment to excellence and detail at
+          every stage of development.
+        </p>
       </div>
     </div>
 
     <!-- Services -->
-    <div id="Services" class="bgCover1 scroll-offset">
+    <div id="Services" class="scroll-offset mt-5">
       <div class="container pb-5">
-        <h2 class="text-light fs-1 text-center mb-4 pt-4">Our Services</h2>
-        <section class="my-5">
-          <div class="container">
-            <div class="row g-4">
-              <div class="col-12 col-md-6 col-lg-4">
-                <div
-                  class="border border-light-subtle rounded-2 p-3 d-flex flex-column align-items-center gap-4 justify-content-center h-100">
-                  <img
-                    class="img-fluid w-50"
-                    src="./image/concret.png"
-                    alt="" />
-                  <p class="text-light fw-bold fs-3 fs-3 text-center">
-                    General Contracting
-                  </p>
+        <h2
+          class="text-uppercase text-dark fw-bolder fs-1 text-center mb-5 line line1 position-relative">
+          Our Services
+        </h2>
+        <div class="container py-5">
+          <div class="row g-4">
+            <div class="col-6 col-md-4 col-lg-3 p-3 hover">
+              <div
+                class="p-3 bg-light border text-center rounded-3 bg-primary-subtle">
+                <div class="">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 512 512"
+                    width="60"
+                    height="60"
+                    fill="#0d6efd">
+                    <path
+                      d="M352 320c88.4 0 160-71.6 160-160c0-15.3-2.2-30.1-6.2-44.2c-3.1-10.8-16.4-13.2-24.3-5.3l-76.8 76.8c-3 3-7.1 4.7-11.3 4.7L336 192c-8.8 0-16-7.2-16-16l0-57.4c0-4.2 1.7-8.3 4.7-11.3l76.8-76.8c7.9-7.9 5.4-21.2-5.3-24.3C382.1 2.2 367.3 0 352 0C263.6 0 192 71.6 192 160c0 19.1 3.4 37.5 9.5 54.5L19.9 396.1C7.2 408.8 0 426.1 0 444.1C0 481.6 30.4 512 67.9 512c18 0 35.3-7.2 48-19.9L297.5 310.5c17 6.2 35.4 9.5 54.5 9.5zM80 408a24 24 0 1 1 0 48 24 24 0 1 1 0-48z" />
+                  </svg>
                 </div>
-              </div>
 
-              <div class="col-12 col-md-6 col-lg-4">
-                <div
-                  class="border border-light-subtle rounded-2 p-3 d-flex flex-column align-items-center gap-4 justify-content-center h-100">
-                  <img class="img-fluid w-50" src="./image/design.png" alt="" />
-                  <p class="text-light fw-bold fs-3 text-center">
-                    Design - Build
-                  </p>
-                </div>
+                <p class="text-dark fw-bold fs-6 mt-3 text-center">
+                  General Contracting
+                </p>
               </div>
-
-              <div class="col-12 col-md-6 col-lg-4">
-                <div
-                  class="border border-light-subtle rounded-2 p-3 d-flex flex-column align-items-center gap-4 justify-content-center h-100">
-                  <img
-                    class="img-fluid w-50"
-                    src="./image/concret.png"
-                    alt="" />
-                  <p class="text-light fw-bold fs-3 text-center">
-                    Pre - Construction
-                  </p>
+            </div>
+            <div class="col-6 col-md-4 col-lg-3 p-3 hover">
+              <div
+                class="p-3 bg-light border text-center rounded-3 bg-primary-subtle pb-4 pb-md-0">
+                <div class="">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="60"
+                    height="60"
+                    viewBox="0 0 512 512"
+                    fill="#0d6efd">
+                    <path
+                      d="M352 96c0 14.3-3.1 27.9-8.8 40.2L396 227.4c-23.7 25.3-54.2 44.1-88.5 53.6L256 192c0 0 0 0 0 0s0 0 0 0l-68 117.5c21.5 6.8 44.3 10.5 68.1 10.5c70.7 0 133.8-32.7 174.9-84c11.1-13.8 31.2-16 45-5s16 31.2 5 45C428.1 341.8 347 384 256 384c-35.4 0-69.4-6.4-100.7-18.1L98.7 463.7C94 471.8 87 478.4 78.6 482.6L23.2 510.3c-5 2.5-10.9 2.2-15.6-.7S0 501.5 0 496l0-55.4c0-8.4 2.2-16.7 6.5-24.1l60-103.7C53.7 301.6 41.8 289.3 31.2 276c-11.1-13.8-8.8-33.9 5-45s33.9-8.8 45 5c5.7 7.1 11.8 13.8 18.2 20.1l69.4-119.9c-5.6-12.2-8.8-25.8-8.8-40.2c0-53 43-96 96-96s96 43 96 96zm21 297.9c32.6-12.8 62.5-30.8 88.9-52.9l43.7 75.5c4.2 7.3 6.5 15.6 6.5 24.1l0 55.4c0 5.5-2.9 10.7-7.6 13.6s-10.6 3.2-15.6 .7l-55.4-27.7c-8.4-4.2-15.4-10.8-20.1-18.9L373 393.9zM256 128a32 32 0 1 0 0-64 32 32 0 1 0 0 64z" />
+                  </svg>
                 </div>
+
+                <p class="text-dark fw-bold fs-6 mt-3 text-center">
+                  Design - Build
+                </p>
               </div>
-
-              <div class="col-12 col-md-6 col-lg-4">
-                <div
-                  class="border border-light-subtle rounded-2 p-3 d-flex flex-column align-items-center gap-4 justify-content-center h-100">
-                  <img class="img-fluid w-50" src="./image/char.png" alt="" />
-                  <p class="text-light fw-bold fs-3 text-center">
-                    Civil & Structural
-                  </p>
+            </div>
+            <div class="col-6 col-md-4 col-lg-3 p-3 hover">
+              <div
+                class="p-3 bg-light border text-center rounded-3 bg-primary-subtle">
+                <div class="">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="60"
+                    height="60"
+                    viewBox="0 0 384 512"
+                    fill="#0d6efd">
+                    <path
+                      d="M48 0C21.5 0 0 21.5 0 48L0 464c0 26.5 21.5 48 48 48h96v-80c0-26.5 21.5-48 48-48s48 21.5 48 48v80h96c26.5 0 48-21.5 48-48V48c0-26.5-21.5-48-48-48H48zM64 240c0-8.8 7.2-16 16-16h32c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16H80c-8.8 0-16-7.2-16-16v-32zm112-16h32c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16h-32c-8.8 0-16-7.2-16-16v-32c0-8.8 7.2-16 16-16zm80 16c0-8.8 7.2-16 16-16h32c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16h-32c-8.8 0-16-7.2-16-16v-32zM80 96h32c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16H80c-8.8 0-16-7.2-16-16v-32c0-8.8 7.2-16 16-16zm80 16c0-8.8 7.2-16 16-16h32c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16h-32c-8.8 0-16-7.2-16-16v-32zm112-16h32c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16h-32c-8.8 0-16-7.2-16-16v-32c0-8.8 7.2-16 16-16z" />
+                  </svg>
                 </div>
+
+                <p class="text-dark fw-bold fs-6 mt-3 text-center">
+                  Civil & Structural
+                </p>
               </div>
-
-              <div class="col-12 col-md-6 col-lg-4">
-                <div
-                  class="border border-light-subtle rounded-2 p-3 d-flex flex-column align-items-center gap-4 justify-content-center h-100">
-                  <img class="img-fluid w-50" src="./image/key.png" alt="" />
-                  <p class="text-light fw-bold fs-3 text-center">
-                    MEP - Services
-                  </p>
+            </div>
+            <div class="col-6 col-md-4 col-lg-3 p-3 hover">
+              <div
+                class="p-3 bg-light border text-center rounded-3 bg-primary-subtle">
+                <div class="">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="60"
+                    height="60"
+                    viewBox="0 0 512 512"
+                    fill="#0d6efd">
+                    <path
+                      d="M78.6 5C69.1-2.4 55.6-1.5 47 7L7 47c-8.5 8.5-9.4 22-2.1 31.6l80 104c4.5 5.9 11.6 9.4 19 9.4l54.1 0 109 109c-14.7 29-10 65.4 14.3 89.6l112 112c12.5 12.5 32.8 12.5 45.3 0l64-64c12.5-12.5 12.5-32.8 0-45.3l-112-112c-24.2-24.2-60.6-29-89.6-14.3l-109-109 0-54.1c0-7.5-3.5-14.5-9.4-19L78.6 5zM19.9 396.1C7.2 408.8 0 426.1 0 444.1C0 481.6 30.4 512 67.9 512c18 0 35.3-7.2 48-19.9L233.7 374.3c-7.8-20.9-9-43.6-3.6-65.1l-61.7-61.7L19.9 396.1zM512 144c0-10.5-1.1-20.7-3.2-30.5c-2.4-11.2-16.1-14.1-24.2-6l-63.9 63.9c-3 3-7.1 4.7-11.3 4.7L352 176c-8.8 0-16-7.2-16-16l0-57.4c0-4.2 1.7-8.3 4.7-11.3l63.9-63.9c8.1-8.1 5.2-21.8-6-24.2C388.7 1.1 378.5 0 368 0C288.5 0 224 64.5 224 144l0 .8 85.3 85.3c36-9.1 75.8 .5 104 28.7L429 274.5c49-23 83-72.8 83-130.5zM56 432a24 24 0 1 1 48 0 24 24 0 1 1 -48 0z" />
+                  </svg>
                 </div>
+
+                <p class="text-dark fw-bold fs-6 mt-3 text-center">
+                  MEP - Services
+                </p>
               </div>
-
-              <div class="col-12 col-md-6 col-lg-4">
-                <div
-                  class="border border-light-subtle rounded-2 p-3 d-flex flex-column align-items-center gap-4 justify-content-center h-100">
-                  <img class="img-fluid w-50" src="./image/solve.png" alt="" />
-                  <p class="text-light fw-bold fs-3 text-center">
-                    Construction Management
-                  </p>
+            </div>
+            <div class="col-6 col-md-4 col-lg-3 p-3 hover">
+              <div
+                class="p-3 bg-light border text-center rounded-3 bg-primary-subtle">
+                <div class="">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="60"
+                    height="60"
+                    viewBox="0 0 576 512"
+                    fill="#0d6efd">
+                    <path
+                      d="M256 32c-17.7 0-32 14.3-32 32l0 2.3 0 99.6c0 5.6-4.5 10.1-10.1 10.1c-3.6 0-7-1.9-8.8-5.1L157.1 87C83 123.5 32 199.8 32 288l0 64 512 0 0-66.4c-.9-87.2-51.7-162.4-125.1-198.6l-48 83.9c-1.8 3.2-5.2 5.1-8.8 5.1c-5.6 0-10.1-4.5-10.1-10.1l0-99.6 0-2.3c0-17.7-14.3-32-32-32l-64 0zM16.6 384C7.4 384 0 391.4 0 400.6c0 4.7 2 9.2 5.8 11.9C27.5 428.4 111.8 480 288 480s260.5-51.6 282.2-67.5c3.8-2.8 5.8-7.2 5.8-11.9c0-9.2-7.4-16.6-16.6-16.6L16.6 384z" />
+                  </svg>
                 </div>
+
+                <p class="text-dark fw-bold fs-6 mt-3 text-center">
+                  Construction Management
+                </p>
               </div>
-
-              <div class="col-12 col-md-6 col-lg-4">
-                <div
-                  class="border border-light-subtle rounded-2 p-3 d-flex flex-column align-items-center gap-4 justify-content-center h-100">
-                  <img class="img-fluid w-50" src="./image/solve.png" alt="" />
-                  <p class="text-light fw-bold fs-3 text-center">
-                    Turnkey Solutions
-                  </p>
+            </div>
+            <div class="col-6 col-md-4 col-lg-3 p-3 hover">
+              <div
+                class="p-3 bg-light border text-center rounded-3 bg-primary-subtle">
+                <div class="">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="60"
+                    height="60"
+                    viewBox="0 0 512 512"
+                    fill="#0d6efd">
+                    <path
+                      d="M336 352c97.2 0 176-78.8 176-176S433.2 0 336 0S160 78.8 160 176c0 18.7 2.9 36.8 8.3 53.7L7 391c-4.5 4.5-7 10.6-7 17l0 80c0 13.3 10.7 24 24 24l80 0c13.3 0 24-10.7 24-24l0-40 40 0c13.3 0 24-10.7 24-24l0-40 40 0c6.4 0 12.5-2.5 17-7l33.3-33.3c16.9 5.4 35 8.3 53.7 8.3zM376 96a40 40 0 1 1 0 80 40 40 0 1 1 0-80z" />
+                  </svg>
                 </div>
+
+                <p class="text-dark fw-bold fs-6 mt-3 text-center pb-md-4">
+                  Turnkey Solutions
+                </p>
               </div>
-
-              <div class="col-12 col-md-6 col-lg-4">
-                <div
-                  class="border border-light-subtle rounded-2 p-3 d-flex flex-column align-items-center gap-4 justify-content-center h-100">
-                  <img class="img-fluid w-50" src="./image/key.png" alt="" />
-                  <p class="text-light fw-bold fs-3 text-center">
-                    Sustainable Construction
-                  </p>
+            </div>
+            <div class="col-6 col-md-4 col-lg-3 p-3 hover">
+              <div
+                class="p-3 bg-light border text-center rounded-3 bg-primary-subtle">
+                <div class="">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="60"
+                    height="60"
+                    viewBox="0 0 512 512"
+                    fill="#0d6efd">
+                    <path
+                      d="M272 96c-78.6 0-145.1 51.5-167.7 122.5c33.6-17 71.5-26.5 111.7-26.5l88 0c8.8 0 16 7.2 16 16s-7.2 16-16 16h-88c-16.6 0-32.7 1.9-48.3 5.4c-25.9 5.9-49.9 16.4-71.4 30.7C38.3 298.8 0 364.9 0 440v16c0 13.3 10.7 24 24 24s24-10.7 24-24v-16c0-48.7 20.7-92.5 53.8-123.2C121.6 392.3 190.3 448 272 448h1c132.1-.7 239-130.9 239-291.4c0-42.6-7.5-83.1-21.1-119.6c-2.6-6.9-12.7-6.6-16.2-.1C455.9 72.1 418.7 96 376 96H272z" />
+                  </svg>
                 </div>
+
+                <p class="text-dark fw-bold fs-6 mt-3 text-center">
+                  Sustainable Construction
+                </p>
               </div>
-
-              <div class="col-12 col-md-6 col-lg-4">
-                <div
-                  class="border border-light-subtle rounded-2 p-3 d-flex flex-column align-items-center gap-4 justify-content-center h-100">
-                  <img class="img-fluid w-50" src="./image/char.png" alt="" />
-                  <p class="text-light fw-bold fs-3 text-center">
-                    Post Construction Support
-                  </p>
+            </div>
+            <div class="col-6 col-md-4 col-lg-3 p-3 hover">
+              <div
+                class="p-3 bg-light border text-center rounded-3 bg-primary-subtle">
+                <div class="">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="60"
+                    height="60"
+                    viewBox="0 0 512 512"
+                    fill="#0d6efd">
+                    <path
+                      d="M256 48C141.1 48 48 141.1 48 256l0 40c0 13.3-10.7 24-24 24s-24-10.7-24-24l0-40C0 114.6 114.6 0 256 0S512 114.6 512 256l0 144.1c0 48.6-39.4 88-88.1 88L313.6 488c-8.3 14.3-23.8 24-41.6 24l-32 0c-26.5 0-48-21.5-48-48s21.5-48 48-48l32 0c17.8 0 33.3 9.7 41.6 24l110.4 .1c22.1 0 40-17.9 40-40L464 256c0-114.9-93.1-208-208-208zM144 208l16 0c17.7 0 32 14.3 32 32l0 112c0 17.7-14.3 32-32 32l-16 0c-35.3 0-64-28.7-64-64l0-48c0-35.3 28.7-64 64-64zm224 0c35.3 0 64 28.7 64 64l0 48c0 35.3-28.7 64-64 64l-16 0c-17.7 0-32-14.3-32-32l0-112c0-17.7 14.3-32 32-32l16 0z" />
+                  </svg>
                 </div>
+
+                <p class="text-dark fw-bold fs-6 mt-3 text-center">
+                  Construction Support
+                </p>
               </div>
             </div>
           </div>
-        </section>
+        </div>
       </div>
     </div>
 
     <!--Projects  -->
     <div id="Projects" class="bg-dark-subtle scroll-offset">
       <div class="container py-5">
-        <h3 class="fs-1 text-primary text-center mb-5">My Projects</h3>
+        <h3 class="fs-1 text-primary text-center mb-5">Our Projects</h3>
         <div class="row g-4">
           <div class="col-12 col-md-6 col-lg-6">
             <div class="border rounded-3 border-black p-3 shadow-sm h-100">
